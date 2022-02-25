@@ -1,9 +1,29 @@
-Unity | Antunes Neto
+Unity 2020 LTS | Antunes Neto
 
 :: País ::
 
+São Francisco | California - 
+
+
 :: Requisitos Mínimos ::
+
+> Sisntema Operacional > Windows 7, 10 e 11 (64 bits) | MAC OSX 10.13 + | Ubuntu 20.04, CentOS7
+> CPU > X64 SSE2 | X64 SSE2 | X64 SSE2
+> GRAPHICS API > DX10 DX11 e DX12 | Metal GPUS or AMD GPUs | OpenGL 3.2 or Vulkan 
+
 
 :: 2d 3d ::
 
+2D e 3D
+
+
+:: Liguagem de Programação ::
+
+C#
+
+
 :: Documentação (LINK) ::
+
+https://docs.unity.com
+
+Manual de Editor do Unity e Scriping Reference;
