@@ -17,6 +17,13 @@ Plataformas de realidade virtual / estendida HTC Vive, Valve Index, Oculus Rift,
 
 sim
 
+:: Linguagem ::
+
+GDScript
+C#
+VisualScript
+GDNative
+
 :: Documentação (LINK) ::
 
 https://docs.godotengine.org/en/stable/
