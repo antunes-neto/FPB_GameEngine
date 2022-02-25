@@ -1,0 +1,22 @@
+Godot | Edilson Gomes
+
+:: País ::
+
+Desenvolvido por Juan Linietsky e Ariel Manzur com a OKAM studio, no ano de 2001 na Argentina.
+
+:: Requisitos Mínimos ::
+
+OpenGL 2.1 / OpenGL ES 2.0 compatível com hardware
+Versão Mono, .NET SDK ou Mono SDK
+Plataformas móveis Android, iOS
+Plataformas de desktop Linux, macOS, Microsoft Windows (plataforma universal do Windows), BSD
+Plataforma Web HTML5, WebAssembly. [8]
+Plataformas de realidade virtual / estendida HTC Vive, Valve Index, Oculus Rift, Oculus Go, Oculus Quest, todos os fones de ouvido Microsoft MR, ARKit da Apple e muitos mais
+
+:: 2d 3d ::
+
+sim
+
+:: Documentação (LINK) ::
+
+https://docs.godotengine.org/en/stable/
