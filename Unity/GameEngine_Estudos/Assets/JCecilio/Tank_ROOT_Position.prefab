@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5063254647822114889}
-  - component: {fileID: 5063254647822114888}
   m_Layer: 0
   m_Name: Tank_ROOT_Position
   m_TagString: Untagged
@@ -28,27 +27,11 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 5063254648300403846}
-  - {fileID: 5063254648058083688}
   - {fileID: 5063254648139863094}
+  - {fileID: 5995139679785168932}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5063254647822114888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5063254647822114890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Velocidade","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
 --- !u!1 &5063254648058083689
 GameObject:
   m_ObjectHideFlags: 0
@@ -79,8 +62,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0.212, z: 0}
   m_LocalScale: {x: 1, y: 0.43361, z: 1.6777}
   m_Children: []
-  m_Father: {fileID: 5063254647822114889}
-  m_RootOrder: 1
+  m_Father: {fileID: 5995139679785168932}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5063254648058083693
 MeshFilter:
@@ -156,7 +139,7 @@ GameObject:
   - component: {fileID: 5063254648139863095}
   - component: {fileID: 5063254648139863088}
   m_Layer: 0
-  m_Name: Visao
+  m_Name: Camera
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -174,7 +157,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5063254647822114889}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 14.284, y: 0, z: 0}
 --- !u!20 &5063254648139863095
 Camera:
@@ -254,12 +237,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5063254648300403847}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.542, z: 0.206}
+  m_LocalPosition: {x: 0, y: 0.54199994, z: 0.20599999}
   m_LocalScale: {x: 0.59586, y: 0.23187, z: 1}
   m_Children:
   - {fileID: 5063254648389263268}
-  m_Father: {fileID: 5063254647822114889}
-  m_RootOrder: 0
+  m_Father: {fileID: 5995139679785168932}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5063254648300403963
 MeshFilter:
@@ -419,3 +402,35 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!1 &6899988650877582790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5995139679785168932}
+  m_Layer: 0
+  m_Name: Parent_Tank_Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5995139679785168932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6899988650877582790}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5063254648058083688}
+  - {fileID: 5063254648300403846}
+  m_Father: {fileID: 5063254647822114889}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
