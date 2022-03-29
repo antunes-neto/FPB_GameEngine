@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.574817, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -276,8 +276,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Velocidade","value":{"$content":2,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Velocidade","value":{"$content":2,"$type":"System.Int32"},"$version":"A"},{"name":"Base_Rotacao","value":{"$content":30,"$type":"System.Int32"},"$version":"A"},{"name":"Agulo_Torreta","value":{"$content":30,"$type":"System.Int32"},"$version":"A"},{"name":"Torreta","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 2037485297}
+--- !u!114 &802712436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802712433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: e52e7f4fcd749964da9c3bcc49b81628, type: 2}
 --- !u!1 &844789692 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5063254648300403847, guid: 8862321fafd0f48428799e70b23f942b, type: 3}
@@ -346,7 +363,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 0.9126783, b: 0.6745283, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -411,6 +428,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &2037485297 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2387951189877816613, guid: 8862321fafd0f48428799e70b23f942b, type: 3}
+  m_PrefabInstance: {fileID: 5063254647457712955}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5063254647457712955
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -418,10 +440,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5063254647822114888, guid: 8862321fafd0f48428799e70b23f942b, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
     - target: {fileID: 5063254647822114889, guid: 8862321fafd0f48428799e70b23f942b, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -470,6 +488,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tank_ROOT_Position
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5063254647822114888, guid: 8862321fafd0f48428799e70b23f942b, type: 3}
+    - target: {fileID: 5063254648139863089, guid: 8862321fafd0f48428799e70b23f942b, type: 3}
+      propertyPath: m_Name
+      value: Main Camera
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8862321fafd0f48428799e70b23f942b, type: 3}
