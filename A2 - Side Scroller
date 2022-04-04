@@ -1,0 +1,30 @@
+Side Scroller - Tipo Mario CROSSOVER
+
+:: Definição
+Cada aluno produz UM personagem para o jogo e um conjunto de assets de cenário 2D (32px de altura asset personagem)
+Achar a chave e ir até a porta;
+
+Coordenar a estética e parametros dos personagens 
+
+:: Ações de personagem
+> IDLE;
+> WALK;
+> ATTACK;
+> DIE;
+> JUMP;
+
+:: Assets por aluno | 1 fase por aluno;
+> 1 tipo de Plataforma;
+> 1 tipo de Objeto Pequeno (16x16);
+> 1 tipo de Objeto Grande (32x64);
+> 1 tipo de Pano de Fundo (gradiente);
+> 1 inimigo Estático (IDLE);
+> 1 Inimigo andando (IDLE, WALK);
+
+:: Fase
+> 1 fase para aluno (ao menos 6 "telas");
+
+:: UI
+> Tela de início;
+> Tela de Seleção de personagem;
+> Tela de Fim;
