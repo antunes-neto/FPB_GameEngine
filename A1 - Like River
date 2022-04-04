@@ -2,7 +2,7 @@ Jogo Baseado no River Raid e Strike Gunner
 
 TEMAS :: JetSky | Aviaozinho | Space | Barco
 
-:: Game play Basics
+:: Game play Basics 
 >> tela em velocidade constante (podendo aumentar a velocidade?);
 >> Jogador controla lateralmente onde o avião está na tela.
 >> O terreno é uma barreira natural;
@@ -11,15 +11,15 @@ TEMAS :: JetSky | Aviaozinho | Space | Barco
 >> 3 Vidas
 >> 
 
-:: Inimigos
+Inimigos 
 >> Estático grande (Navio)
 >> Estático Pequeno (Helicóptero)
 >> Que transpassa o caminho (avião)
 
-:: Complexidade 02
+:: Complexidade 02 
 >> Cenário Procedural
 
-:: Complexidade 03
+:: Complexidade 03 
 >> Fuel ( Recarga de Combustível + Feature de Recarregar UI)
->> Manobra Evasiva
+>> Manobra Evasiva (coleta-se ITEM - POWER-UP
 >> PARA CELULAR
