@@ -1,0 +1,27 @@
+Tank Battle (3D)
+
+Cada aluno desenvolve seu tank, cada tank deverá possuir um peso (4 - 10), blindagem (4 - 10), velocidade (10 - 4) projétil com qualidades diferentes (1 - 3) ;
+
+:: Tank
+> Largata 2x;
+> Cabine;
+> Torreta;
+> Efeito TIRO (animação + particula;
+> Projétil;
+
+:: Material Tank (cada subObjeto um Material;
+> 512px cada textura;
+> Albedo <*.png>;
+> Metalic (RGBA, A = Smoothness) <*.TGA>;
+
+Jogo de Battle UM GRANDE CENÁRIO;
+> 3 conjuntos de rochas;
+> 4 tipos de arvores;
+> 5 tipos de arbustos;
+> 6 Tipos de Construções;
+> Cenário plano;
+
+
+> Jogo com servidor + Cliente.
+> Cada Cliente é do tipo de tank.
+> JOgar no BROWSER?
